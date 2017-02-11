@@ -1,5 +1,7 @@
 ### mysteryshack docker image (unofficial)
 
+More information about mysteryshack [here](https://github.com/untitaker/mysteryshack).
+
 - create a user:
 
 ```
