@@ -9,13 +9,13 @@ d run -ti --rm \
     -v /path/to/config.ini:/rs/config.ini \
     -v /path/to/data:/rs/data \
     bnjbvr/mysteryshack \
-    mysteryshack user create robert
+    /rs/create-user.sh robert
 ```
 
 - spawn a server:
 
 ```
-d run -ti --rm \
+d run -ti -d \
     -v /path/to/config.ini:/rs/config.ini \
     -v /path/to/data:/rs/data \
     -p 6767:6767 \
